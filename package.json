@@ -2,6 +2,8 @@
   "name": "@omotes/esdl-typescript-parser",
   "version": "0.0.1",
   "description": "Typescript parser for ESDL XML files.",
+  "repository": "https://github.com/Project-OMOTES/esdl-typescript-parser.git",
+  "homepage": "https://github.com/Project-OMOTES/esdl-typescript-parser",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
