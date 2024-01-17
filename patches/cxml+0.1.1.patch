@@ -1,0 +1,13 @@
+diff --git a/node_modules/cxml/dist/xml/Parser.js b/node_modules/cxml/dist/xml/Parser.js
+index 6de479b..51436b0 100644
+--- a/node_modules/cxml/dist/xml/Parser.js
++++ b/node_modules/cxml/dist/xml/Parser.js
+@@ -157,7 +157,7 @@ var Parser = (function () {
+             if (obj && obj._after)
+                 obj._after();
+             state = state.parent;
+-            if (member.proxy) {
++            if (member && member.proxy) {
+                 if (item)
+                     state.item[member.safeName] = item;
+                 item = state.item;
